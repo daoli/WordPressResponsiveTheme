@@ -85,8 +85,8 @@
         
         <div class="grid col-300 fit powered">
             <a href="<?php echo esc_url(__('http://themeid.com/responsive-theme','responsive')); ?>" title="<?php esc_attr_e('Responsive Theme', 'responsive'); ?>">
-                    <?php printf('Responsive Theme'); ?></a>
-            powered by <a href="<?php echo esc_url(__('http://wordpress.org','responsive')); ?>" title="<?php esc_attr_e('WordPress', 'responsive'); ?>">
+                    <?php printf('Responsive Theme'); ?></a> <a href="https://github.com/daoli/WordPressResponsiveTheme"> Hacked. </a>
+            Powered by <a href="<?php echo esc_url(__('http://wordpress.org','responsive')); ?>" title="<?php esc_attr_e('WordPress', 'responsive'); ?>">
                     <?php printf('WordPress'); ?></a>
         </div><!-- end .powered -->
         

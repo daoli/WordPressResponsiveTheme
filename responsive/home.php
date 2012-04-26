@@ -20,22 +20,6 @@
 <?php get_header(); ?>
 
         <div id="featured" class="grid col-940">
-        
-        <div class="grid col-460">
-
-            <?php $options = get_option('responsive_theme_options');
-			// First let's check if headline was set
-			    if ($options['home_headline']) {
-                    echo '<h1 class="featured-title">'; 
-				    echo $options['home_headline'];
-				    echo '</h1>'; 
-			// If not display dummy headline for preview purposes
-			      } else { 
-			        echo '<h1 class="featured-title">';
-				    echo __('Hello, World!','responsive');
-				    echo '</h1>';
-				  }
-			?>
                     
             <?php $options = get_option('responsive_theme_options');
 			// First let's check if headline was set
@@ -54,9 +38,7 @@
             <?php $options = get_option('responsive_theme_options');
 			// First let's check if content is in place
 			    if ($options['home_content_area']) {
-                    echo '<p>'; 
 				    echo $options['home_content_area'];
-				    echo '</p>'; 
 			// If not let's show dummy content for demo purposes
 			      } else { 
 			        echo '<p>';
@@ -74,6 +56,24 @@
             <?php $options = get_option('responsive_theme_options');
 			// First let's check if headline was set
 			    if (!empty($options['cta_url']) && $options['cta_text']) {
+					echo '<a href="'.$options['cta_url'].'" class="blue button">'; 
+					echo $options['cta_text'];
+				    echo '</a>';
+			// If not display dummy headline for preview purposes
+			      } else { 
+					echo '<a href="#nogo" class="blue button">'; 
+					echo __('Call to Action','responsive');
+				    echo '</a>';
+				  }
+			?>  
+            
+            </div><!-- end of .call-to-action -->
+            <?php endif; ?>         
+            
+        </div><!-- end of #featured -->
+               
+<?php /* get_sidebar('home'); */ ?>
+<?php get_footer(); ?>tions['cta_text']) {
 					echo '<a href="'.$options['cta_url'].'" class="blue button">'; 
 					echo $options['cta_text'];
 				    echo '</a>';
