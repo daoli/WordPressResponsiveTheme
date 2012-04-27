@@ -98,7 +98,7 @@ body {
 	background:#efefef url(images/bg.png) repeat;
 	color:#404040;
 	font-family: "Arimo", Helvetica, Arial, sans-serif;
-	font-size:14px;
+	font-size:13px;
 	line-height:1.5em;
 	text-rendering:optimizeLegibility;
 }
@@ -876,8 +876,8 @@ blockquote {
 blockquote p {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
-	font-size:18px;
-	line-height:26px;
+	font-size:13px;
+	line-height:18px;
 	margin:20px;
 	padding:0 0 10px 12px;
 }
@@ -892,24 +892,24 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 h1 {
 	color:#404040;
-	font-size:2em;
+	font-size:1.5em;
 }
 
 h2 {
 	color:#777;
-	font-size:1.6em;
+	font-size:1.4em;
 }
 
 h3 {
-	font-size:1.5em;
-}
-
-h4 {
 	font-size:1.3em;
 }
 
-h5 {
+h4 {
 	font-size:1.2em;
+}
+
+h5 {
+	font-size:1.1em;
 }
 
 h6 {
@@ -1083,7 +1083,7 @@ form div {
 
 #header #logo .site-description {
 	display:block;
-	font-size:14px;
+	font-size:12px;
 	margin:10px 33px 10px 0;
 }
 
@@ -1214,7 +1214,7 @@ form div {
 /* =Post
 -------------------------------------------------------------- */
 .comments-link {
-	font-size:12px;
+	font-size:11px;
 }
 
 #cancel-comment-reply-link {
@@ -1239,7 +1239,7 @@ form div {
 .post-meta {
 	clear:both;
 	color:#9f9f9f;
-	font-size:13px;
+	font-size:11px;
 	margin-bottom:10px;
 }
 
@@ -1291,7 +1291,7 @@ form div {
 	border:1px solid #d6d6d6;
 	border-radius:6px;
 	background-color:#f9f9f9;
-	font-size:13px;
+	font-size:12px;
 	margin:0 0 20px;
 	padding:20px;
 }
@@ -1374,7 +1374,7 @@ form div {
 -------------------------------------------------------------- */
 .widget-title, .widget-title-home h3 {
 	display:block;
-	font-size:24px;
+	font-size:1.2em;
 	font-weight:700;
 	line-height:23px;
 	margin:0;
@@ -1796,7 +1796,7 @@ form div {
 .navigation {
 	color:#333;
 	display:block;
-	font-size:14px;
+	font-size:12px;
 	height:28px;
 	line-height:28px;
 	margin:20px 0;
@@ -1830,7 +1830,7 @@ form div {
 .pagination {
 	clear:both;
 	display:block;
-	font-size:16px;
+	font-size:14px;
 	font-weight:700;
 	margin:10px 0;
 	padding:5px 0;
@@ -1877,7 +1877,7 @@ form div {
 }
 
 .commentlist li p {
-	font-size:14px;
+	font-size:12px;
 }
 
 .commentlist p {

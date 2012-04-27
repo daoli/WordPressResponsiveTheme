@@ -75,6 +75,12 @@
                 </div><!-- end of .post-data -->             
 
             <div class="post-edit"><?php edit_post_link(__('Edit', 'responsive')); ?></div>             
+
+            <div class="navigation">
+            <div class="alignleft"><?php previous_post('&laquo; %', '', 'yes'); ?></div>
+            <div class="alignright"><?php next_post('% &raquo; ', '', 'yes'); ?></div>
+            </div>
+
             </div><!-- end of #post-<?php the_ID(); ?> -->
             
 			<?php comments_template( '', true ); ?>

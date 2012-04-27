@@ -27,6 +27,7 @@
 
 <title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
+<link rel="shortcut icon" href="http://daoyuan.li/favicon.ico" type="image/x-icon" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
