@@ -76,7 +76,7 @@
          </div><!-- end of col-300 fit -->
                 
         <div class="grid col-300 copyright">
-            <?php esc_attr_e('&copy;', 'responsive'); ?> <?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+            <?php esc_attr_e('&copy;', 'responsive'); ?> 2005-<?php _e(date('Y')); ?><a href="<?php echo home_url('/') ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                 <?php bloginfo('name'); ?>
             </a>
         </div><!-- end of .copyright -->
@@ -87,7 +87,7 @@
             <a href="<?php echo esc_url(__('http://themeid.com/responsive-theme','responsive')); ?>" title="<?php esc_attr_e('Responsive Theme', 'responsive'); ?>">
                     <?php printf('Responsive Theme'); ?></a> <a href="https://github.com/daoli/WordPressResponsiveTheme"> Hacked. </a>
             Powered by <a href="<?php echo esc_url(__('http://wordpress.org','responsive')); ?>" title="<?php esc_attr_e('WordPress', 'responsive'); ?>">
-                    <?php printf('WordPress'); ?></a>
+                    <?php printf('WordPress.'); ?></a>
         </div><!-- end .powered -->
         
     </div><!-- end of col-940 -->
