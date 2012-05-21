@@ -1,9 +1,9 @@
 <?php
 /**
- * Front Page
+ * Home Page
  *
  * Note: You can overwrite home.php as well as any other Template in Child Theme.
- * Create the same file (name) include in /child-theme/ and you're all set to go!
+ * Create the same file (name) include in /responsive-child-theme/ and you're all set to go!
  * @see            http://codex.wordpress.org/Child_Themes
  *
  * @file           home.php
@@ -13,7 +13,7 @@
  * @license        license.txt
  * @version        Release: 1.0
  * @filesource     wp-content/themes/responsive/home.php
- * @link           N/A
+ * @link           http://codex.wordpress.org/Template_Hierarchy
  * @since          available since Release 1.0
  */
 ?>
@@ -68,9 +68,7 @@
 			?>  
             
             </div><!-- end of .call-to-action -->
-            <?php endif; ?>         
-            
+            <?php endif; ?>
+        
         </div><!-- end of #featured -->
-               
-<?php /* get_sidebar('home'); */ ?>
 <?php get_footer(); ?>

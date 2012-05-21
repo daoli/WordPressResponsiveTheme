@@ -26,15 +26,25 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 <title><?php wp_title('&#124;', true, 'right'); ?><?php bloginfo('name'); ?></title>
-
 <link rel="shortcut icon" href="http://daoyuan.li/favicon.ico" type="image/x-icon" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <link href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-<?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.2.0');?>
+<?php wp_enqueue_style('responsive-style', get_stylesheet_uri(), false, '1.2.1');?>
 
 <?php wp_head(); ?>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10635222-4']);
+  _gaq.push(['_setDomainName', 'daoyuan.li']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </head>
 
 <body <?php body_class(); ?>>
