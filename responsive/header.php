@@ -36,8 +36,8 @@
 <?php wp_head(); ?>
 <script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-10635222-4']);
-  _gaq.push(['_setDomainName', 'daoyuan.li']);
+  _gaq.push(['_setAccount', 'UA-xxxxxxxx-x']);
+  _gaq.push(['_setDomainName', 'domain.name']);
   _gaq.push(['_trackPageview']);
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
