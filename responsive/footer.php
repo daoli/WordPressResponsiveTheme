@@ -92,9 +92,9 @@
         <div class="grid col-300 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
         
         <div class="grid col-300 fit powered">
-            <a href="<?php echo esc_url(__('http://themeid.com/responsive-theme/','responsive')); ?>" title="<?php esc_attr_e('Responsive Theme', 'responsive'); ?>">
-                    <?php printf('Responsive Theme'); ?></a> <a href="https://github.com/daoli/WordPressResponsiveTheme"> Hacked. </a>
-            Powered by <a href="<?php echo esc_url(__('http://wordpress.org','responsive')); ?>" title="<?php esc_attr_e('WordPress', 'responsive'); ?>">
+            <a target="_blank" href="<?php echo esc_url(__('http://themeid.com/responsive-theme/','responsive')); ?>" title="<?php esc_attr_e('Responsive Theme', 'responsive'); ?>">
+                    <?php printf('Responsive Theme'); ?></a> <a target="_blank" href="https://github.com/daoli/WordPressResponsiveTheme"> Hacked. </a>
+            Powered by <a target="_blank" href="<?php echo esc_url(__('http://wordpress.org','responsive')); ?>" title="<?php esc_attr_e('WordPress', 'responsive'); ?>">
                     <?php printf('WordPress.'); ?></a>
         </div><!-- end .powered -->
         
